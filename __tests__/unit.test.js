@@ -11,7 +11,7 @@ import {
 // TODO - Part 2
 
 test('valid phone number', () => {
-  expect(isPhoneNumber('123-456-7890')).toBe(false);
+  expect(isPhoneNumber('123-456-7890')).toBe(4);
 });
 
 test('valid phone number', () => {
